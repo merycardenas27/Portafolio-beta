@@ -1,14 +1,74 @@
+@import "partials/_grid";
 @import "partials/_colors";
+@import "partials/_fonts";
+/*REUSABLES CLASSES*/
+.p-top {
+  padding-top: 100px;
+}
+.p-lr {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.img-bg {
+  background-image: url("../assets/img/bg_about-me.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/*GENERAL STYLES*/
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 html {
   font-size: 14px;
 }
+body {
+  color: $neut2-color;
+  font-family: $content-font;
+}
+header {
+  @extend .p-top;
+}
+h1, h2, h4, p {
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 4.5rem;
+}
+h2 {
+  @extend .text-uppercase;
+  font-family: $title-font;
+  font-size: 3rem;
+}
+/*BLOCKS*/
+.btn {
+  @extend .text-uppercase;
+  background: $comp-color;
+  box-shadow: 0px 5px 0px 0px $comp-dark-color;
+  color: $neut2-color;
+  display:inline-block;
+  margin: 1rem 0;
+  padding: 14px 42px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  &:hover {
+    background: $comp-light-color;
+  }
+  &:active {
+    box-shadow: 0px 2px 0px 0px $comp-dark-color;
+  }
+}
 .navbar {
-  background-color: gray;
+  @extend .text-uppercase;
+  background-color: transparent;
   list-style: none;
   overflow: auto;
   &__item {
@@ -16,7 +76,7 @@ html {
     margin:2px;
     a{
       background-color:transparent;
-      color:$color_neu2;
+      color:$neut2-color;
       display:block;
       font-size: 1rem;
     	padding:1rem 0;
@@ -25,8 +85,21 @@ html {
       width:100px;
     }
     a:hover {
-      background-color:#ffffff;
-	    color:#000000;
+      background-color:$comp-color;
+	    color:$neut2-color;
     }
   }
+}
+/*SECTIONS OF THE PAGE*/
+.root {
+  background-color: $neut1-color;
+}
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+.about-me {
+  @extend .img-bg;
+  @extend .p-top;
+  height: 600px;
 }
