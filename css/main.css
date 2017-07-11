@@ -1,0 +1,30 @@
+/*PALETA DE COLOR*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 14px; }
+
+.navbar {
+  background-color: gray;
+  list-style: none;
+  overflow: auto; }
+  .navbar__item {
+    float: left;
+    margin: 2px; }
+    .navbar__item a {
+      background-color: transparent;
+      color: #ffffff;
+      display: block;
+      font-size: 1rem;
+      padding: 1rem 0;
+      text-decoration: none;
+      text-align: center;
+      width: 100px; }
+    .navbar__item a:hover {
+      background-color: #ffffff;
+      color: #000000; }
+
+/*# sourceMappingURL=main.css.map */
