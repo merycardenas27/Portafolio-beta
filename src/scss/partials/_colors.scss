@@ -1,8 +1,32 @@
-//PALETA DE COLOR
-$base-color       :  #444f5a; //OUTER SPACE
-$comp-color       :  #ff9999; //LIGHT SALMON PINK
-$comp-light-color :  #FFABAB;
-$comp-dark-color  :  #ba7070;
-$anal-color       :  #ffc8c8; //BUBBLE GUN
-$neut1-color      :  #3e4149; //ARSENIC
-$neut2-color      :  #ffffff; //WHITE
+//TEMA DE COLOR
+$base-color: #444f5a; //OUTER SPACE
+$comp-color: #f99; //LIGHTSALMONPINK
+$comp-light-color: #ffabab;
+$comp-dark-color: #ba7070;
+$anal-color: #ffc8c8; //BUBBLE GUN
+$neut1-color: #3e4149; //ARSENIC
+$neutral1-color: #fff;
+$neutral2-color: #000;
+
+//ESCALA DE GRISES
+$gray-base: #7d7d7d;
+$gray-darken1: #727272;
+$gray-darken2: #676767;
+$gray-darken3: #5b5b5b;
+$gray-darken4: #505050;
+$gray-darken5: #454545;
+$gray-darken6: #393939;
+$gray-darken7: #2e2e2e;
+$gray-darken8: #232323;
+$gray-darken9: #171717;
+$gray-darken10: #0c0c0c;
+$gray-lighten1: #888;
+$gray-lighten2: #949494;
+$gray-lighten3: #a0a0a0;
+$gray-lighten4: #acacac;
+$gray-lighten5: #b8b8b8;
+$gray-lighten6: #c3c3c3;
+$gray-lighten7: #cfcfcf;
+$gray-lighten8: #dbdbdb;
+$gray-lighten9: #e7e7e7;
+$gray-lighten10: #f3f3f3;

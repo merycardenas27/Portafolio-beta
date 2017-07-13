@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,40 +8,58 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Portafolio | Ruth Mery Cardenas</title>
 </head>
+
 <body>
   <div class="root">
     <div class="wrapper">
       <header>
         <nav>
           <ul class="navbar">
-            <li class="navbar__item"><a href="#">inicio</a></li>
-            <li class="navbar__item"><a href="#">sobre mí</a></li>
-            <li class="navbar__item"><a href="#">habilidades</a></li>
-            <li class="navbar__item"><a href="#">proyectos</a></li>
-            <li class="navbar__item"><a href="#">contacto</a></li>
+            <li class="navbar__item"><a href="#about-me">inicio</a></li>
+            <li class="navbar__item"><a href="#about-me">sobre mí</a></li>
+            <li class="navbar__item"><a href="#skills">habilidades</a></li>
+            <li class="navbar__item"><a href="#portfolio">proyectos</a></li>
+            <li class="navbar__item"><a href="#contact">contacto</a></li>
           </ul>
         </nav>
       </header>
-      <h1 class="text-center">Ruth Mery Cardenas</h1>
-      <section class="about-me">
+      <section id="about-me" class="about-me">
         <div class="row">
-          <div class="col-xs-7 p-lr text-center">
-            <h2>web developer</h2>
-            <h4>I &hearts; the code.</h4>
-            <p>Front End Jr. y profesional en Computación e Informática.<br>
-              Me desempeño en el análisis, diseño y desarrollo de proyectos web; poseo también conocimientos en Bases de Datos y programación en distintas plataformas.</p>
-            <a class="btn" href="#">leer más</a>
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-center">
+            <h1>web developer</h1>
+            <h3>I &hearts; the code.</h3>
+            <p>Front End Jr. y profesional en Computación e Informática.<br> Me desempeño en el análisis, diseño y desarrollo de proyectos web; poseo también conocimientos en Bases de Datos y programación en distintas plataformas.</p>
+            <a class="btn" href="#skills">leer más</a>
           </div>
         </div>
       </section>
-      <section class="skills"></section>
-      <section class="portfolio"></section>
-      <section class="contact"></section>
+      <section id="skills" class="skills">
+        <h2 class="text-center">habilidades</h2>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <h2 class="text-center">proyectos</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="proyecto">Proyecto</div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="proyecto">Proyecto</div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="proyecto">Proyecto</div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="proyecto">Proyecto</div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2 class="text-center">contacto</h2>
+      </section>
       <footer></footer>
     </div>
   </div>
-
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script> -->
   <!-- <script type="text/javascript" src="js/app.js"></script> -->
 </body>
+
 </html>
